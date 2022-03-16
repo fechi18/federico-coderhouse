@@ -1,0 +1,76 @@
+
+body-nosotros {
+    background-color: #91F5AD;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar__box-nosotros {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 45px;
+    background-color: #292F36;
+    height: 60px;
+}
+
+.navbar__image-nosotros {
+    width: 55px;
+    height: 55px;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+ .navbar__link-nosotros {
+     font-family: starwars;
+     font-size: 16px;
+     color: #FF6663;
+     display: inline-block;
+     text-align: center;
+     margin-top: 1px;
+     margin-right: 15px;
+}
+
+.article_info-nosotros {
+    display: flex;
+}
+
+.title__first-nosotros {
+    font-family: starwars;
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+}
+
+.title__third-nosotros {
+    font-family: starwars;
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+}
+
+.paragraph-nosotros {
+    font-family: nunito;
+    margin-left: 15px;
+    background-image: url(imagenessw/10.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: #FF6663;
+    border-radius: 15px;
+    color: #FFD25A;
+}
+
+#aside__us {
+    display: flex;
+}
+
+.aside__image-nosotros {
+    flex-direction: row;
+    justify-content: end;
+    
+}
