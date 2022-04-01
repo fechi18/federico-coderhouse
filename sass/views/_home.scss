@@ -50,8 +50,6 @@
     
     .navbar__link-index {
         font-family: starwars;
-        font-size: 16px;
-        color: white;
         list-style: none;
         display: inline-block;
         text-align: center;
@@ -60,6 +58,9 @@
         margin-right: 15px;
         opacity: 1;
     }
+
+    .navbar__link-index {
+    
     @media screen and (max-width: 480px) {
         .navbar__link-index {
             display: flex;
@@ -70,4 +71,4 @@
             color: antiquewhite;
         }
     }
-    
+}

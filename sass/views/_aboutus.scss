@@ -75,7 +75,7 @@
 
 
 .title__second-nosotros {
-    font-family: starwars;
+    font-family: StarWars;
     font-size: 18px;
     color: #F4D35E;
     margin-left: 10px;
@@ -86,13 +86,16 @@
     line-height: 1.5;
     text-align: justify;
     margin-left: 15px;
-    padding: 10px;
     width: 30%;
     height: 100%;
     border: solid;
     border-color: yellow;
-    color: #F4D35E;
     border-radius: 25px;
+}
+
+.paragraph-nosotros {
+    @include styleus(#F4D35E, 18px, 10px);
+    @extend .paragraph-nosotros;
 }
 
 @media screen and (max-width: 480px) {

@@ -59,8 +59,6 @@
 
 .navbar__link-index {
   font-family: starwars;
-  font-size: 16px;
-  color: white;
   list-style: none;
   display: inline-block;
   text-align: center;
@@ -70,7 +68,7 @@
   opacity: 1; }
 
 @media screen and (max-width: 480px) {
-  .navbar__link-index {
+  .navbar__link-index .navbar__link-index {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,26 +137,29 @@
     margin-top: 150px; } }
 
 .title__second-nosotros {
-  font-family: starwars;
+  font-family: StarWars;
   font-size: 18px;
   color: #F4D35E;
   margin-left: 10px; }
 
-.paragraph-nosotros {
+.paragraph-nosotros, .text__eventos {
   font-family: nunito;
   line-height: 1.5;
   text-align: justify;
   margin-left: 15px;
-  padding: 10px;
   width: 30%;
   height: 100%;
   border: solid;
   border-color: yellow;
-  color: #F4D35E;
   border-radius: 25px; }
 
+.paragraph-nosotros, .text__eventos {
+  color: #F4D35E;
+  font-size: 18px;
+  padding: 10px; }
+
 @media screen and (max-width: 480px) {
-  .paragraph-nosotros {
+  .paragraph-nosotros, .text__eventos {
     display: flex;
     text-align: center;
     margin-left: 500px;
@@ -197,17 +198,8 @@
   background-color: #F4D35E; }
 
 .text__eventos {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: justify;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 30px;
-  min-width: 300px;
-  color: #F4D35E;
-  font-size: 20px;
-  font-family: nunito;
-  line-height: 1.2; }
+  margin-left: 450px;
+  margin-bottom: 30px; }
 
 .navbar__image-eventos {
   width: 55px;
